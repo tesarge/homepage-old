@@ -1,0 +1,200 @@
+html, body{
+    margin: 0;
+    text-align: center;
+    background-color: #F2F3F3;
+    color: #333;
+  }
+  .navbar{
+      position: fixed;
+      width: 100%;
+      background-color: #333;
+      top: 0;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li{
+ 
+      float: left;
+  }
+  
+  .navbar li a{
+      display: block;
+      color: #FFC40C;
+      text-align: center;
+      font-size: 1.2em;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  
+  span{
+    text-decoration: underline;
+  }
+  
+  h1{
+    color: #333;
+    font-family: 'Spartan', sans-serif;
+    font-size: 6em;
+  }
+  
+  h2{
+    color: #FFC40C;
+    font-family: 'Spartan', sans-serif;
+    font-size: 5em;
+  }
+  
+  .projects h2{
+    color: #333;
+    font-family: 'Spartan', sans-serif;
+    font-size: 5em;
+  }
+  
+  p{
+    color: #333;
+    font-family: 'Spartan', sans-serif;
+    font-size: 2em;
+  }
+  
+  #about{
+    display: block;
+    margin: 50px 150px 0 50px;
+    text-align: left;
+  }
+  
+  .resume li{
+    display: block;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+  }
+  
+  .skills{
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 15px;
+  }
+  
+  .skills li{
+    display: inline-flex;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+  }
+  
+  
+  .contact li{
+    display: inline-flex;
+    padding: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+  }
+  
+  .projects li{
+    display: inline-flex;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  img{
+    max-width: 400px;
+    max-height: 400px;
+  }
+  
+  .hvrbox:hover {
+    position:relative;
+    top:-5px;
+    left:-10px;
+    display:block;
+    z-index:999;
+    box-shadow: 5px 10px 15px #333;
+}
+
+.imgtext{
+  max-width: 400px;
+  padding:3px;
+  font-size: 16px;
+}
+
+  .myButton {
+      background-color:#ffc20c;
+      border-radius:9px;
+      display:inline-block;
+      cursor:pointer;
+      color:#303030;
+    font-family: 'Source Sans Pro', sans-serif;
+      font-size:1.5em;
+      padding:16px 52px;
+      text-decoration:none;
+  }
+  .myButton:hover {
+      background-color:#ffffff;
+    color: #ffc40c;
+    transition: 0.4s;
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }
+  
+  .contact i{
+    padding: 15px;
+  }
+  
+  .projects i{
+    padding: 5px;
+  }
+  
+  .container {
+    position: relative;
+    width: 250px;
+    display: inline-block;
+    margin: 25px;
+  }
+  
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 255px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFc40c;
+  }
+  
+  .container:hover .overlay {
+    opacity: .6;
+  }
+  
+  .text {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  footer{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #000000;
+  }
+
